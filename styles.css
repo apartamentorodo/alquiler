@@ -34,15 +34,17 @@ body {
 
     .hero {
       background: url('https://via.placeholder.com/1200x500') center/cover no-repeat;
-      height: 100px;
+      height: 50px;
       justify-content: center;
       align-items: center;
       color: #34495e;
       text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+      background: #acd4fc;
+          
     }
 
     .hero h1 {
-      font-size: 4rem;
+      font-size: 5rem;
     }
 
     .container {
