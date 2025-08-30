@@ -11,9 +11,6 @@ body {
       padding: 1rem 2rem;
       text-align: center;
     }
-   footer{
-      background: #34495e;
-   }
 
     nav {
       display: flex;
@@ -72,6 +69,12 @@ body {
       width: 100%;
       border-radius: 8px;
     }
+
+    iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
     footer {
       background: #2c3e50;
