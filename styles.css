@@ -11,6 +11,9 @@ body {
       padding: 1rem 2rem;
       text-align: center;
     }
+   footer{
+      background: #34495e;
+   }
 
     nav {
       display: flex;
