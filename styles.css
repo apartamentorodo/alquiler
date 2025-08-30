@@ -33,13 +33,14 @@ body {
     }
 
     .hero {
-      height: 50px;
+      height: 75px;
       display: flex;
       justify-content: center;
       align-items: center;
       color: #34495e;
       text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
-          
+      background: #b6d1fc;
+
     }
 
     .hero h1 {
