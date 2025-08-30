@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Property Rental</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #34495e;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 1rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: #2c3e50;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1200x500') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .section h2 {
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Property Rental</h1>
+    <p>Your perfect vacation home awaits</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Beautiful Rental Property</h1>
+  </section>
+
+  <div class="container">
+    <section id="about" class="section">
+      <h2>About the Property</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet ligula eget nunc volutpat aliquet.</p>
+    </section>
+
+    <section id="gallery" class="section">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="https://raw.githubusercontent.com/vadimdemedes/ink/refs/heads/master/media/logo.png" alt="Property image 1">
+        <img src="https://via.placeholder.com/400x300" alt="Property image 2">
+        <img src="https://via.placeholder.com/400x300" alt="Property image 3">
+        <img src="https://via.placeholder.com/400x300" alt="Property image 4">
+	<iframe src="https://drive.google.com/file/d/1OTgZtUs5u-Y8I3DCk-btB5hv1Pk_JXfv/preview" width="640" height="480" allow="autoplay"></iframe>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div align="center">
+	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScumU3X9WbSSPmmWs2zMeTv8PesO1hojBRYMpWPxz5SFYP35Q/viewform?embedded=true" width="700" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…
+	</iframe>
+      </div>
+      <p>Email: example@email.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Property Rental. All rights reserved.</p>
+  </footer>
+</body>
+</html>
