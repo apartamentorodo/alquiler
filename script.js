@@ -6,12 +6,10 @@ var images = document.getElementsByTagName("img");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
-for (const img of images) {
-  img.onclick = function(){
+  imgOnclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  }
-}
+
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
