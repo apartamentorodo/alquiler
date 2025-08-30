@@ -34,16 +34,16 @@ body {
 
     .hero {
       background: url('https://via.placeholder.com/1200x500') center/cover no-repeat;
-      height: 400px;
+      height: 150px;
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #fff;
+      color: #34495e;
       text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
     }
 
     .hero h1 {
-      font-size: 3rem;
+      font-size: 4rem;
     }
 
     .container {
