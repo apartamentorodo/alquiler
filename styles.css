@@ -34,8 +34,7 @@ body {
 
     .hero {
       background: url('https://via.placeholder.com/1200x500') center/cover no-repeat;
-      height: 150px;
-      display: flex;
+      height: 100px;
       justify-content: center;
       align-items: center;
       color: #34495e;
