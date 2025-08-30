@@ -81,8 +81,4 @@ body {
       margin-top: 2rem;
     }
 
-    @media (max-width: 600px) {
-      .hero h1 {
-        font-size: 2rem;
-      }
-    }
+
