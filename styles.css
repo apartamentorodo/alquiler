@@ -35,11 +35,11 @@ body {
     .hero {
       background: url('https://via.placeholder.com/1200x500') center/cover no-repeat;
       height: 50px;
+      display: flex;
       justify-content: center;
       align-items: center;
       color: #34495e;
       text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
-      background: #acd4fc;
           
     }
 
